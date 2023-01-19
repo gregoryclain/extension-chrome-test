@@ -7,10 +7,25 @@
     <script src="popup.js"></script>
 </head>
 <body>
-<h1>Hello</h1>
-<button id="generateName" type="button">Générer le nom de la PR</button>
-<input id="displayName" type="text" />
-<button id="copyName" type="button">Copier</button>
-
+    <h1>Generate PR name</h1>
+    <section id="generateZone">
+        <div class="row">
+            <div class="labelsZone">
+                <label for="tagName">Tag : </label>
+            </div>
+            
+            <input id="tagName" type="text" />
+        </div>
+        <div class="row">
+            <div class="labelsZone"></div>
+            <input id="displayName" type="text" />
+        </div>
+        <div class="row">
+            <div class="labelsZone"></div>
+            <button id="generateButton" type="button">Générer</button>
+            <button id="copyButton" type="button">Copier</button>
+            <button id="eraseButton" type="button">Effacer</button>
+        </div>
+    </section>
 </body>
 </html>
